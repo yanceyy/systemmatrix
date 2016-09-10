@@ -15,7 +15,7 @@
 
 由于线段距离原点为已知且固定的值，可知其长为1.5，那么可分别取出线段上的不重合两点分别为（1.5*cos45°，1.5*sin45°）,(1.5/cos45°,0)那么就可以确定这条唯一直线。
 
-<img src="https://github.com/yanceyy/university_projects/blob/master/systemmatrix/systemmatrix/readme_image/IMG_6.png" width="40%" height="40%"/>
+<img src="https://github.com/yanceyy/university_projects/blob/master/systemmatrix/readme_image/IMG_6.png" width="40%" height="40%"/>
 
 由于像素点的边界的所有线段为已知线段，可求得其与投影线的各各交点的坐标，由交点即可计算出各线段的长度，由线段左焦点的坐标和旋转角度即可确定，线段位于第几个像素点之内。
 
